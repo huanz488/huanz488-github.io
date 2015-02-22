@@ -78,3 +78,9 @@ right: 0;
     100% {right:40px; bottom:40px;}
 
 }
+
+background {
+    background-image:url('project1/images/IMG_6834.JPG');
+    background-repeat:no-repeat;
+    background-position:center;
+  }
