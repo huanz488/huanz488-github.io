@@ -12,7 +12,7 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;
--webkit-animation: mysecond 5s linear 2s infinite alternate;
+-webkit-animation: mysecond 3s linear 2s infinite alternate;
 }
 
 .test3 {
@@ -29,7 +29,7 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;
--webkit-animation: myfirst 5s linear 2s infinite alternate;
+-webkit-animation: myfirst 8s linear 2s infinite alternate;
 }
 
 .test2 {
@@ -46,7 +46,7 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;
--webkit-animation: mythird 5s linear 2s infinite alternate;
+-webkit-animation: mythird 5s linear 5s infinite alternate;
 }
 
 
