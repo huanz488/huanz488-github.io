@@ -6,29 +6,3 @@ body{
 }
 
 
-.test {
-    background-color: black;
-font-family: 'existencelight';
-font-size: 150%;
-width: 200px;
-height: 200px;
-border-radius: 50%;
-text-align: center;
-margin: auto;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
--webkit-animation: mythird 5s linear 2s infinite alternate;
-}
-
-
-
-@-webkit-keyframes mythird {
-    0%   {right:0px; bottom:0px;}
-    25%  {right:50px; bottom:0px;}
-    50%  {right:50px; bottom:50px;}
-    75%  {right:0px; bottom:50px;}
-    100% {right:0px; bottom:0px;}
-}
