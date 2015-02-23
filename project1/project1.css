@@ -52,7 +52,7 @@ right: 0;
 .backgroundtest {
 width:1422px;
 height:734px;
-background:red;
+background:#660000;
 animation:myfourth 50s;
 -webkit-animation:myfourth 50s linear 5s infinite alternate;
 
