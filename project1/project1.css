@@ -91,10 +91,10 @@ animation:myfourth 50s;
 }
 
 @-webkit-keyframes myfirst {
-    0%   {right:50px; bottom:50px;}
+    0%   {right:50px; bottom:0px;}
     25%  {right:0px; bottom:50px;}
-    50%  {right:60px; bottom:60px;}
-    75%  {right:0px; bottom:50px;}
-    100% {right:40px; bottom:40px;}
+    50%  {right:0px; bottom:-60px;}
+    75%  {right:-70px; bottom:50px;}
+    100% {right:0px; bottom:-40px;}
 
 }
