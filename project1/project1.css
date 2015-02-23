@@ -1,11 +1,5 @@
-body {
-    background-image:url(images/layered.jpg) ; 
-    background-position:50% 50%;
-    
-}
-
 .test {
-background-color: yellow;
+background-color: black;
 font-family: 'existencelight';
 font-size: 150%;
 width: 200px;
@@ -25,8 +19,8 @@ right: 0;
 background-color: #B22222;
 font-family: 'existencelight';
 font-size: 150%;
-width: 600px;
-height: 600px;
+width: 700px;
+height: 700px;
 border-radius: 50%;
 text-align: center;
 margin: auto;
@@ -42,8 +36,8 @@ right: 0;
 background-color: #CD5C5C;
 font-family: 'existencelight';
 font-size: 150%;
-width: 400px;
-height: 400px;
+width: 450px;
+height: 450px;
 border-radius: 50%;
 text-align: center;
 margin: auto;
@@ -55,9 +49,29 @@ right: 0;
 -webkit-animation: mythird 5s linear 5s infinite alternate;
 }
 
+.backgroundtest {
+width:1422px;
+height:734px;
+background:red;
+animation:myfourth 50s;
+-webkit-animation:myfourth 50s linear 5s infinite alternate;
+
+}
+
+
+/* background */
+@-webkit-keyframes myfourth {
+0%   {background:#660000;}
+25%  {background:#800000;}
+50%  {background:#FF6600;}
+100% {background:#FFFF66;}
+
+}
 
 
 
+
+/* circle */
 @-webkit-keyframes mythird {
     0%   {right:0px; bottom:0px;}
     25%  {right:50px; bottom:0px;}
