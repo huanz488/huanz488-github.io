@@ -20,7 +20,7 @@ right: 0;transition:width 2s, height 2s;
 {
 width:200px;
 height:200px;
--webkit-transform:rotate(360deg);
+-webkit-transform:rotate(180deg);
 }
 
 .test3 {
@@ -44,9 +44,9 @@ transition:width 2s, height 2s;
 
 .test3:hover
 {
-width:600px;
-height:600px;
--webkit-transform:rotate(360deg);
+width:550px;
+height:550px;
+-webkit-transform:rotate(180deg);
 }
 
 .test2 {
@@ -72,7 +72,7 @@ transition:width 1s, height 1s;
 {
 width:450px;
 height:450px;
--webkit-transform:rotate(360deg);
+-webkit-transform:rotate(180deg);
 }
 
 .backgroundtest {
