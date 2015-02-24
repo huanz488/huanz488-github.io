@@ -12,7 +12,7 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;transition:width 2s, height 2s;
--webkit-transition:width 1s, height 1s, -webkit-transform 2s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 1s;
 -webkit-animation: mysecond 3s linear 2s infinite alternate;
 }
 
@@ -38,14 +38,14 @@ left: 0;
 bottom: 0;
 right: 0;
 transition:width 2s, height 2s;
--webkit-transition:width 1s, height 1s, -webkit-transform 2s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 1s;
 -webkit-animation: myfirst 8s linear 2s infinite alternate;
 }
 
 .test3:hover
 {
-width:700px;
-height:700px;
+width:600px;
+height:600px;
 -webkit-transform:rotate(360deg);
 }
 
@@ -64,14 +64,14 @@ left: 0;
 bottom: 0;
 right: 0;
 transition:width 1s, height 1s;
--webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 1s;
 -webkit-animation: mythird 5s linear 5s infinite alternate;
 }
 
 .test2:hover
 {
-width:500px;
-height:500px;
+width:450px;
+height:450px;
 -webkit-transform:rotate(360deg);
 }
 
