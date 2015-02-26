@@ -18,6 +18,7 @@ right: 0;transition:width 2s, height 2s;
 
 .test:hover
 {
+background-color: white;
 width:200px;
 height:200px;
 -webkit-transform:rotate(180deg);
@@ -44,6 +45,7 @@ transition:width 2s, height 2s;
 
 .test3:hover
 {
+background-color: white;
 width:550px;
 height:550px;
 -webkit-transform:rotate(180deg);
@@ -70,6 +72,7 @@ transition:width 1s, height 1s;
 
 .test2:hover
 {
+background-color: white;
 width:450px;
 height:450px;
 -webkit-transform:rotate(180deg);
