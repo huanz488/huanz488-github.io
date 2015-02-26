@@ -95,8 +95,6 @@ animation:myfourth 50s;
 }
 
 
-
-
 /* circle */
 @-webkit-keyframes mythird {
     0%   {right:0px; bottom:0px;}
