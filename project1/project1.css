@@ -1,6 +1,57 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+.image {
+  position: absolute;
+  height:90px;
+  width:90px;
+  top: 50%;
+  border-top:-5px;
+  bottom: 0;
+  left: 0;
+  border-radius:150%;
+  right: 0;
+  opacity: 0.52;
+  background: #66FF66;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  text-align:center;
+  vertical-align:center;
+  font-size:20px;
+
+  -webkit-transition: visibility opacity 2s;
+
+}
+
+.test2:hover .image {
+  background: url(images/lightingeffect.png);
+  visibility: visible;
+  opacity: 1;
+  width: 110px;
+  height:110px;
+  line-height: 110px;
+    -webkit-animation: sizechange 1s;
+
+}
+
+.test3:hover .image {
+  visibility: visible;
+  background: url(images/lecturesound.png);
+  opacity: 1;
+  width: 110px;
+  height:110px;
+  line-height: 110px;
+    -webkit-animation: sizechange 2s;
+
+}
+
 .test {
-background-color: black;
-font-family: 'existencelight';
+background: url(images/jiasmall.gif);
 font-size: 150%;
 width: 150px;
 height: 150px;
@@ -12,21 +63,21 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;transition:width 2s, height 2s;
--webkit-transition:width 1s, height 1s, -webkit-transform 1s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 2s;
 -webkit-animation: mysecond 3s linear 2s infinite alternate;
+
 }
 
-.test:hover
-{
+.test:hover {
+background: url(images/jia.gif);
 background-color: white;
 width:200px;
 height:200px;
--webkit-transform:rotate(180deg);
+-webkit-transform:rotate(360deg);
 }
 
 .test3 {
 background-color: #B22222;
-font-family: 'existencelight';
 font-size: 150%;
 width: 500px;
 height: 500px;
@@ -39,20 +90,28 @@ left: 0;
 bottom: 0;
 right: 0;
 transition:width 2s, height 2s;
--webkit-transition:width 1s, height 1s, -webkit-transform 1s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 2s;
 -webkit-animation: myfirst 8s linear 2s infinite alternate;
+
 }
 
 .test3:hover
 {
-background-color: white;
+background: url(images/soundsbig.gif);
 width:550px;
 height:550px;
--webkit-transform:rotate(180deg);
+opacity:0.8;
+-webkit-transform:rotate(360deg);
+
+
+}
+
+audio {
+  display: none;
 }
 
 .test2 {
-background-color: #CD5C5C;
+background-color: #FFCC33;
 font-family: 'existencelight';
 font-size: 150%;
 width: 350px;
@@ -66,34 +125,25 @@ left: 0;
 bottom: 0;
 right: 0;
 transition:width 1s, height 1s;
--webkit-transition:width 1s, height 1s, -webkit-transform 1s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 2s;
 -webkit-animation: mythird 5s linear 5s infinite alternate;
 }
 
 .test2:hover
 {
-background-color: white;
+background: url(images/imagesbig.gif);
 width:450px;
 height:450px;
--webkit-transform:rotate(180deg);
+opacity:0.8;
+-webkit-transform:rotate(360deg);
 }
 
 .backgroundtest {
-width:1422px;
-height:734px;
-background:#660000;
-animation:myfourth 50s;
--webkit-animation:myfourth 50s linear 5s infinite alternate;
-
-}
-
-
-/* background */
-@-webkit-keyframes myfourth {
-0%   {background:#660000;}
-25%  {background:#800000;}
-50%  {background:#FF6600;}
-100% {background:#FFFF66;}
+width:1440px;
+height:900px;
+/*background-color:#660000;*/
+/*animation:myfourth 50s;*/
+/*-webkit-animation:myfourth 50s linear 5s infinite alternate;*/
 
 }
 
@@ -125,3 +175,14 @@ animation:myfourth 50s;
     100% {right:0px; bottom:-40px;}
 
 }
+
+/* background */
+/*@-webkit-keyframes myfourth {*/
+/*0%   {background:#660000;}*/
+/*25%  {background:#800000;}*/
+/*50%  {background:#FF6600;}*/
+/*100% {background:#FFFF66;}*/
+
+/*}*/
+
+

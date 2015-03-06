@@ -1,0 +1,24 @@
+.test2 {
+background: url(images/mosaictest.png);
+font-family: 'existencelight';
+font-size: 150%;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+text-align: center;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+
+}
+
+.test2:hover
+{
+background: url(images/mosaictest.png);
+width:450px;
+height:450px;
+
+}
