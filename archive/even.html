@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <script src="even.js"></script>
+        <link href="even.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body style="position:relative;">
+
+        <div class="edu">@newschool.edu</div>
+
+        <div class="odd"><a href="odd.html">ODD</a></div>
+        <div class="or">or</div>
+        
+        <div class="even"><a href="even.html">EVEN</a></div>
+        <div class="question">?</div>
+        <div class="word-wrapper"></div>
+        <div class="pickanumber">Pick a Number_</div>
+
+        <div style="position:fixed;"><div class="border"></div></div>
+
+<div id="rollAD" style="z-index:10000; height:450px; position:relative; overflow:hidden;">
+<div id="rollText" style="z-index:10000; font-size:500px; line-height:1000px;">
+<a href="evenlink/568.html" title="">diasm568</a><br />
+<a href="evenlink/384.html" title="">duemt384</a><br />
+<a href="evenlink/488.html" title="">huanz488</a><br />
+<a href="evenlink/042.html" title="">jhavu042</a><br />
+<a href="evenlink/508.html" title="">kumol508</a><br />
+<a href="evenlink/326.html" title="">penas326</a><br />
+<a href="evenlink/122.html" title="">zhanj122</a><br />
+
+<a href="evenlink/568.html" title="">diasm568</a><br />
+<a href="evenlink/384.html" title="">duemt384</a><br />
+<a href="evenlink/488.html" title="">huanz488</a><br />
+<a href="evenlink/042.html" title="">jhavu042</a><br />
+<a href="evenlink/508.html" title="">kumol508</a><br />
+<a href="evenlink/326.html" title="">penas326</a><br />
+<a href="evenlink/122.html" title="">zhanj122</a><br />
+
+<a href="evenlink/568.html" title="">diasm568</a><br />
+<a href="evenlink/384.html" title="">duemt384</a><br />
+<a href="evenlink/488.html" title="">huanz488</a><br />
+<a href="evenlink/042.html" title="">jhavu042</a><br />
+<a href="evenlink/508.html" title="">kumol508</a><br />
+<a href="evenlink/326.html" title="">penas326</a><br />
+<a href="evenlink/122.html" title="">zhanj122</a><br />
+<div id="rollAD" style="z-index:10000; height:450px; position:relative; overflow:hidden;">
+<div id="rollText" style="z-index:10000; font-size:500px; line-height:1000px;">
+    
+
+</div>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript">
+// <![CDATA[
+var textDiv = document.getElementById("rollText");
+var textList = textDiv.getElementsByTagName("a");
+if(textList.length > 2){
+var textDat = textDiv.innerHTML;
+var br = textDat.toLowerCase().indexOf("<br",textDat.toLowerCase().indexOf("<br")+3);
+//var textUp2 = textDat.substr(0,br);
+textDiv.innerHTML = textDat+textDat+textDat.substr(0,br);
+textDiv.style.cssText = "position:absolute; top:0; z-index:10000;";
+var textDatH = textDiv.offsetHeight;MaxRoll();
+}
+var minTime,maxTime,divTop,newTop=0;
+function MinRoll(){
+newTop++;
+if(newTop<=divTop+40){
+textDiv.style.top = "-" + newTop + "px";
+}else{
+clearInterval(minTime);
+maxTime = setTimeout(MaxRoll,300);
+}
+}
+function MaxRoll(){
+divTop = Math.abs(parseInt(textDiv.style.top));
+if(divTop>=0 && divTop<textDatH-40){
+minTime = setInterval(MinRoll,1);
+}else{
+textDiv.style.top = 0;divTop = 0;newTop=0;MaxRoll();
+}
+}
+// ]]>
+</script>
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,134 @@
+
+#rollText{
+font:160px /120px verdana;
+text-align: -webkit-match-parent;
+font-family: 'helvetica';
+font-size: 400%;
+margin-left: 250px;
+margin-top: 700px;
+text-decoration: none;
+z-index:100000;
+position:relative
+}
+
+.word-wrapper{
+    display:inline-block;
+    margin:center;
+}
+
+.edu{
+text-align: -webkit-match-parent;
+font-family: 'helvetica';
+font-size: 500%;
+position:absolute;
+margin-left: 650px;
+margin-top: 270px;
+text-decoration: none;
+z-index:0;
+}
+
+
+.odd{
+background-repeat: no-repeat;
+font-family: 'helvetica';
+position:absolute;
+font-size: 400%;
+margin-left: 810px;
+margin-top: 520px;
+text-decoration: none;
+z-index:0;
+}
+
+.or{
+text-align: -webkit-match-parent;
+font-family: 'helvetica';
+font-size: 400%;
+position:absolute;
+margin-left: 965px;
+margin-top: 520px;
+text-decoration: none;
+z-index:0;
+}
+
+.even{
+text-align: -webkit-match-parent;
+font-family: 'helvetica';
+font-size: 400%;
+position:absolute;
+margin-left: 1055px;
+margin-top: 520px;
+text-decoration: none;
+z-index:0;
+}
+
+.question{
+text-align: -webkit-match-parent;
+font-family: 'helvetica';
+font-size: 400%;
+position:absolute;
+margin-left: 1260px;
+margin-top: 520px;
+text-decoration: none;
+z-index:0;
+}
+
+.pickanumber{
+text-align: -webkit-match-parent;
+font-family: 'helvetica';
+font-size: 200%;
+position:absolute;
+margin-left: 1000px;
+margin-top: 600px;
+text-decoration: none;
+z-index:0;
+}
+
+
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+.border{
+vertical-align: -webkit-baseline-middle;
+  margin-top: 160px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-top-width: 80px;
+  border-right-width: 15px;
+  border-bottom-width: 80px;
+  border-left-width: 15px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  width: 1300px;
+  height: 130px;
+  z-index:0;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+a:link {  
+   color: #000000;  
+   text-decoration: none;  
+   }  
+a:visited {  
+   text-decoration: none;  
+   color: #000000;  
+   }  
+a:hover {  
+   text-decoration: underline;  
+   color: #FF0000;  
+   }  
+a:active {  
+   text-decoration: none;  
+   color: #FF0000;  
+   }  
+   

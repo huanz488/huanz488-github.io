@@ -1,0 +1,70 @@
+body{
+    font-size:0;
+}
+.word-wrapper{
+    display:inline-block;
+    margin-right:;
+}
+
+.aa{width:660px;}
+
+.letter-wrapper{
+    display:inline-block;
+    margin:0 30px 100px 0;
+}
+.letter{
+    background:#ff0;
+    width:300px;
+    height:400px;
+    position:relative;
+    display:inline-block;
+    margin:0 30px 30px 0;
+}
+
+.bar{
+    background:#000;
+    position:absolute;
+}
+
+.horizontal{
+    height:50px;
+    width:300px;
+}
+
+.vertical{
+    width:50px;
+    height:400px;
+    background:#f0f;
+}
+
+.a-left{
+    top:0;
+    left:0;
+}
+
+.a-top{
+    top:0;
+    left:0;
+}
+
+.a-right{
+    top:0;
+    right:0;
+}
+
+.a-mid{
+    left:0;
+    top:175px;
+}
+
+.red{
+    background:#f00;
+}
+
+.yellow{
+    background:#ff0;
+}
+
+.blue{
+    background:;
+}
