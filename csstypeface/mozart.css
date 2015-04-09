@@ -1,16 +1,117 @@
-canvas
-{
-  top:0px;
-  left:0px;
-}
-
 body
 {
   margin:20px;
   padding:0;
-  background-color:rgb(255,255,255);
+  background: #FFFF66;
   box-shadow:inset 0px 0px 0px rgba(80,10,0,0.5);
 }
+
+audio {
+  display: none;
+}
+
+.menu1 {   
+    width: 1675px; 
+    height: 136px; 
+    background: rgba(255,255,255,0); 
+    position: absolute;
+    margin:-8px 0px 0px 0px;
+} 
+
+.menu1:hover {   
+    width: 1675px; 
+    height: 136px; 
+    background: url(image/minuets.jpg); 
+    opacity:0.6; 
+    position: absolute;
+    margin:-8px 0px 0px 0px;
+    
+} 
+
+.menu2 {   
+    width: 1675px; 
+    height: 136px; 
+    background: rgba(255,255,255,0); 
+    position: absolute;
+    margin:131px 0px 0px 0px;
+} 
+
+.menu2:hover {   
+    width: 1675px; 
+    height: 136px; 
+    background: url(image/apollo.jpg); 
+    opacity:0.6;
+    position: absolute;
+    margin:131px 0px 0px 0px;
+} 
+
+.menu3 {   
+    width: 1675px; 
+    height: 136px; 
+    background: rgba(255,255,255,0); 
+    position: absolute;
+    margin:263px 0px 0px 0px;
+} 
+
+.menu3:hover {   
+    width: 1675px; 
+    height: 136px; 
+    background: url(image/zaide.jpg);
+    opacity:0.6;
+    position: absolute;
+    margin:263px 0px 0px 0px;
+} 
+
+.menu4 {   
+    width: 1675px; 
+    height: 136px; 
+    background: rgba(255,255,255,0); 
+    position: absolute;
+    margin:397px 0px 0px 0px;
+} 
+
+.menu4:hover {   
+    width: 1675px; 
+    height: 136px; 
+    background: url(image/arias.jpg);
+    opacity:0.6; 
+    position: absolute;
+    margin:397px 0px 0px 0px;
+} 
+
+.menu5 {   
+    width: 1675px; 
+    height: 136px; 
+    background: rgba(255,255,255,0); 
+    position: absolute;
+    margin:525px 0px 0px 0px;
+} 
+
+.menu5:hover {   
+    width: 1675px; 
+    height: 136px; 
+    background: url(image/mozart.jpg);
+    opacity:0.6; 
+    position: absolute;
+    margin:525px 0px 0px 0px;
+} 
+
+.menu6 {   
+    width: 1675px; 
+    height: 136px; 
+    background: rgba(255,255,255,0); 
+    position: absolute;
+    margin:655px 0px 0px 0px;
+} 
+
+.menu6:hover {   
+    width: 1675px; 
+    height: 136px; 
+    background: url(image/duets.jpg);
+    opacity:0.6;
+    position: absolute;
+    margin:655px 0px 0px 0px;
+} 
 
 @-webkit-keyframes move {
 0%{}
@@ -30,3 +131,18 @@ body
             transform: rotate(360deg);}
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+
+}
