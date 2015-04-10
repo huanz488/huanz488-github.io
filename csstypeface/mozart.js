@@ -88,42 +88,197 @@ $('.menu6').mouseleave(function() {
 document.getElementById("duets").pause(); 
 });
 
-$(".menu1").mouseenter(function() {
-	$(".menu5").hide();
-	console.log("enter");
+$('.inner23').mouseenter(function() {
+document.getElementById("piano1").play(); 
 });
 
-$(".menu1").mouseleave(function() {
-	$(".menu5").show();
-	console.log("leave");
+$('.inner23').mouseleave(function() {
+document.getElementById("piano1").pause(); 
 });
 
-$(".menu2").mouseenter(function() {
-	$(".menu5").hide();
-	console.log("enter");
+$('.inner35').mouseenter(function() {
+document.getElementById("piano2").play(); 
 });
 
-$(".menu2").mouseleave(function() {
-	$(".menu5").show();
-	console.log("leave");
+$('.inner35').mouseleave(function() {
+document.getElementById("piano2").pause(); 
 });
 
-$(".menu3").mouseenter(function() {
-	$(".menu5").hide();
-	console.log("enter");
+$('.inner49').mouseenter(function() {
+document.getElementById("piano3").play(); 
 });
 
-$(".menu3").mouseleave(function() {
-	$(".menu5").show();
-	console.log("leave");
+$('.inner49').mouseleave(function() {
+document.getElementById("piano3").pause(); 
 });
 
-$(".menu4").mouseenter(function() {
-	$(".menu5").hide();
-	console.log("enter");
+$('.inner11').mouseenter(function() {
+document.getElementById("piano4").play(); 
 });
 
-$(".menu4").mouseleave(function() {
-	$(".menu5").show();
-	console.log("leave");
+$('.inner11').mouseleave(function() {
+document.getElementById("piano4").pause(); 
 });
+
+$('.inner47').mouseenter(function() {
+document.getElementById("piano5").play(); 
+});
+
+$('.inner47').mouseleave(function() {
+document.getElementById("piano5").pause(); 
+});
+
+$('.inner45').mouseenter(function() {
+document.getElementById("piano6").play(); 
+});
+
+$('.inner45').mouseleave(function() {
+document.getElementById("piano6").pause(); 
+});
+
+
+
+
+$('.inner1apollo').mouseenter(function() {
+document.getElementById("piano1").play(); 
+});
+
+$('.inner1apollo').mouseleave(function() {
+document.getElementById("piano1").pause(); 
+});
+
+$('.inner31apollo2').mouseenter(function() {
+document.getElementById("piano2").play(); 
+});
+
+$('.inner31apollo2').mouseleave(function() {
+document.getElementById("piano2").pause(); 
+});
+
+$('.inner31apollo1').mouseenter(function() {
+document.getElementById("piano3").play(); 
+});
+
+$('.inner31apollo1').mouseleave(function() {
+document.getElementById("piano3").pause(); 
+});
+
+$('.inner39').mouseenter(function() {
+document.getElementById("piano4").play(); 
+});
+
+$('.inner39').mouseleave(function() {
+document.getElementById("piano4").pause(); 
+});
+
+
+$('.inner37apollo').mouseenter(function() {
+document.getElementById("piano6").play(); 
+});
+
+$('.inner37apollo').mouseleave(function() {
+document.getElementById("piano6").pause(); 
+});
+
+
+
+$('.inner1arias').mouseenter(function() {
+document.getElementById("piano1").play(); 
+});
+
+$('.inner1arias').mouseleave(function() {
+document.getElementById("piano1").pause(); 
+});
+
+$('.inner43arias').mouseenter(function() {
+document.getElementById("piano2").play(); 
+});
+
+$('.inner43arias').mouseleave(function() {
+document.getElementById("piano2").pause(); 
+});
+
+$('.inner23arias').mouseenter(function() {
+document.getElementById("piano3").play(); 
+});
+
+$('.inner23arias').mouseleave(function() {
+document.getElementById("piano3").pause(); 
+});
+
+$('.inner45arias').mouseenter(function() {
+document.getElementById("piano4").play(); 
+});
+
+$('.inner45arias').mouseleave(function() {
+document.getElementById("piano4").pause(); 
+});
+
+
+
+$('.inner1zaide').mouseenter(function() {
+document.getElementById("piano1").play(); 
+});
+
+$('.inner1zaide').mouseleave(function() {
+document.getElementById("piano1").pause(); 
+});
+
+$('.inner23zaide').mouseenter(function() {
+document.getElementById("piano2").play(); 
+});
+
+$('.inner9').mouseleave(function() {
+document.getElementById("piano2").pause(); 
+});
+
+$('.inner9').mouseenter(function() {
+document.getElementById("piano3").play(); 
+});
+
+$('.inner9').mouseleave(function() {
+document.getElementById("piano3").pause(); 
+});
+
+$('.inner11zaide').mouseenter(function() {
+document.getElementById("piano4").play(); 
+});
+
+$('.inner11zaide').mouseleave(function() {
+document.getElementById("piano4").pause(); 
+});
+
+
+
+$('.inner9duets').mouseenter(function() {
+document.getElementById("piano1").play(); 
+});
+
+$('.inner9duets').mouseleave(function() {
+document.getElementById("piano1").pause(); 
+});
+
+$('.inner49duets').mouseenter(function() {
+document.getElementById("piano2").play(); 
+});
+
+$('.inner49duets').mouseleave(function() {
+document.getElementById("piano2").pause(); 
+});
+
+$('.inner11duets').mouseenter(function() {
+document.getElementById("piano3").play(); 
+});
+
+$('.inner11duets').mouseleave(function() {
+document.getElementById("piano3").pause(); 
+});
+
+$('.inner45duets').mouseenter(function() {
+document.getElementById("piano4").play(); 
+});
+
+$('.inner45duets').mouseleave(function() {
+document.getElementById("piano4").pause(); 
+});
+
