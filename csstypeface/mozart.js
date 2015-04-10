@@ -1,3 +1,5 @@
+console.log("hello world");
+
 function Particle( x, y, radius ) {
 	this.init( x, y, radius );
 }
@@ -46,11 +48,55 @@ Particle.prototype = {
 	}
 };
 
+$('.menu1').mouseenter(function() {
+document.getElementById("minuets").play(); 
+});
 
-$('.menu2').mouseup(function() {
+$('.menu1').mouseleave(function() {
+document.getElementById("minuets").pause(); 
+});
+
+$('.menu2').mouseenter(function() {
 document.getElementById("apollo").play(); 
 });
 
 $('.menu2').mouseleave(function() {
 document.getElementById("apollo").pause(); 
 });
+
+$('.menu3').mouseenter(function() {
+document.getElementById("zaide").play(); 
+});
+
+$('.menu3').mouseleave(function() {
+document.getElementById("zaide").pause(); 
+});
+
+$('.menu4').mouseenter(function() {
+document.getElementById("arias").play(); 
+});
+
+$('.menu4').mouseleave(function() {
+document.getElementById("arias").pause(); 
+});
+
+$('.menu6').mouseenter(function() {
+document.getElementById("duets").play(); 
+});
+
+$('.menu6').mouseleave(function() {
+document.getElementById("duets").pause(); 
+});
+
+$(".menu2").mouseenter(function() {
+	$(".letter-o").hide();
+	console.log("enter");
+});
+
+$(".menu2").mouseleave(function() {
+	$(".letter-o").show();
+	console.log("leave");
+});
+
+
+
