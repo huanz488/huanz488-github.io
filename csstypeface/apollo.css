@@ -1,12 +1,12 @@
 #outeraapollo {   
     background-color: rgba(0,0,0,0);   
-    border:10px solid rgb(174,41,43);   
-    border-right:10px solid rgba(255,255,255,0);  
-    border-left:10px solid rgb(174,41,43); 
-    border-bottom:10px solid rgb(174,41,43);
-    border-radius:100px;   
-    width:100px;   
-    height:100px;   
+    border:30px solid rgb(174,41,43);   
+    border-right:30px solid rgba(255,255,255,0);  
+    border-left:30px solid rgb(174,41,43); 
+    border-bottom:30px solid rgb(174,41,43);
+    border-radius:500px;   
+    width:500px;   
+    height:500px;   
     position: absolute;
     transform:rotate(90deg);
     z-index:0;
@@ -16,16 +16,16 @@
 
 .inner1apollo {   
     background-color: rgba(0,0,0,0);   
-    border:8px solid rgb(104,10,10);   
-    border-right:8px solid rgb(104,0,0);  
-    border-left:8px solid rgb(104,0,0);   
-    border-bottom:8px solid rgba(0,0,0,0);
-    border-radius:70px;   
-    width:70px;   
-    height:70px;   
+    border:20px solid rgb(104,10,10);   
+    border-right:20px solid rgb(104,0,0);  
+    border-left:20px solid rgb(104,0,0);   
+    border-bottom:20px solid rgba(0,0,0,0);
+    border-radius:420px;   
+    width:420px;   
+    height:420px;   
     position: absolute; 
     z-index:20;
-    margin:151px 0px 0px 9px;
+    margin:181px 0px 0px 41px;
     left:17px;
     top:17px;
 
@@ -33,8 +33,230 @@
 
 .inner2apollo {   
     background-color: rgba(0,0,0,0);   
+    border:13px solid rgb(174,41,43);   
+    border-right:13px solid rgb(174,41,43);  
+    border-left:13px solid rgba(0,0,0,0);   
+    border-bottom:13px solid rgba(0,0,0,0);
+    border-radius:330px;   
+    width:330px;   
+    height:330px;   
+    position: absolute; 
+    z-index:20;
+    margin:212px 0px 0px 76px;
+    left:33px;
+    top:33px;
+    transform:rotate(314deg);
+}   
+
+#outerp {   
+    background-color: rgba(0,0,0,0);   
+    border:10px solid rgba(174,41,43,0.7);   
+    border-right:10px solid rgba(255,255,255,0);  
+    border-left:10px solid rgba(174,41,43,0.7); 
+    border-bottom:10px solid rgba(0,0,0,0);
+    border-radius:100px;   
+    width:100px;   
+    height:100px;   
+    position: absolute;
+    transform:rotate(45deg);
+    z-index:0;
+    margin:145px 0px 0px 590px;
+} 
+
+.inner39 {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgb(104,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:154px 0px 0px 599px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+} 
+
+.inner39:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgb(104,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:154px 0px 0px 599px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+} 
+
+
+.inner40 {   
+    background-color: rgba(0,0,0,0);   
     border:5px solid rgb(174,41,43);   
     border-right:5px solid rgb(174,41,43);  
+    border-left:5px solid rgb(174,41,43);   
+    border-bottom:5px solid rgb(174,41,43);
+    border-radius:50px;   
+    width:45px;   
+    height:45px;   
+    position: absolute; 
+    z-index:20;
+    margin:154px 0px 0px 599px;
+    left:33px;
+    top:33px;
+    transform:rotate(deg);
+}
+
+.line8{
+    border:5.5px solid ;
+    width:50px;   
+    margin:230px 0px 0px 565px;
+    color:rgba(174,41,43,0.7);
+    transform:rotate(90deg);
+    position: absolute;
+    z-index:100;
+}
+
+#outero {   
+    background-color: rgba(0,0,0,0);   
+    border:10px solid rgb(235,55,3);   
+    border-right:10px solid rgb(235,55,3);  
+    border-left:10px solid rgb(235,55,3); 
+    border-bottom:10px solid rgb(235,55,3);
+    border-radius:100px;   
+    width:100px;   
+    height:100px;   
+    position: absolute;
+    transform:rotate(0deg);
+    z-index:0;
+    margin:144px 0px 0px 747px;
+    
+} 
+
+.outero {   
+    background-color: rgba(0,0,0,0);   
+    border:10px solid rgb(235,55,3);   
+    border-right:10px solid rgb(235,55,3);  
+    border-left:10px solid rgb(235,55,3); 
+    border-bottom:10px solid rgb(235,55,3);
+    border-radius:500px;   
+    width:500px;   
+    height:500px;   
+    position: absolute;
+    transform:rotate(0deg);
+    opacity:0.2;
+    z-index:100;
+    margin:144px 0px 0px 747px;
+    
+} 
+
+
+.inner37 {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(143,44,3);  
+    border-left:8px solid rgb(143,44,3);   
+    border-bottom:8px solid rgb(143,44,3);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:153px 0px 0px 755px;
+    left:17px;
+    top:17px;
+    transform:rotate(0deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+.inner38 {   
+    background-color: rgba(0,0,0,0);   
+    border:5px solid rgb(235,55,3);   
+    border-right:5px solid rgba(255,255,255,0);  
+    border-left:5px solid rgb(235,55,3);   
+    border-bottom:5px solid rgb(235,55,3);
+    border-radius:50px;   
+    width:45px;   
+    height:45px;   
+    position: absolute; 
+    z-index:20;
+    margin:152px 0px 0px 756px;
+    left:33px;
+    top:33px;
+    transform:rotate(deg);
+}
+
+#outerlapollo1 {   
+    background-color: rgba(0,0,0,0);   
+    border:10px solid rgba(174,41,43,0.7);   
+    border-right:10px solid rgba(255,255,255,0);  
+    border-left:10px solid rgba(174,41,43,0,7); 
+    border-bottom:10px solid rgba(0,0,0,0);
+    border-radius:100px;   
+    width:100px;   
+    height:100px;   
+    position: absolute;
+    transform:rotate(-45deg);
+    z-index:0;
+    margin:0px 0px 0px 0px;
+} 
+
+.inner31apollo1 {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:0px 0px 0px 0px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+} 
+
+.inner31apollo1:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:0px 0px 0px 0px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+    
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+.inner32apollo1 {   
+    background-color: rgba(0,0,0,0);   
+    border:5px solid rgb(174,41,43);   
+    border-right:5px solid rgba(0,0,0,0);  
     border-left:5px solid rgba(0,0,0,0);   
     border-bottom:5px solid rgba(0,0,0,0);
     border-radius:50px;   
@@ -42,16 +264,24 @@
     height:45px;   
     position: absolute; 
     z-index:20;
-    margin:150px 0px 0px 8px;
+    margin:-407px 0px 0px -589px;
     left:33px;
     top:33px;
-    transform:rotate(314deg);
-}   
+    transform:rotate(-45deg);
+}
+
+.line4apollo1{
+    border:5.54px solid ;
+    width:49px;   
+    margin:-296px 0px 0px -529px;
+    transform:rotate(0deg);
+    color:rgba(174,41,43,0.7);
+}
 
 body{
   width:100%; 
   overflow:hidden;
-  background: url(image/background.jpg);
+  background: url(image/backgroundinner.jpg);
 }
 
 audio{

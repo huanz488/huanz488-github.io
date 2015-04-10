@@ -117,3 +117,13 @@ $(".menu3").mouseleave(function() {
 	$(".menu5").show();
 	console.log("leave");
 });
+
+$(".menu4").mouseenter(function() {
+	$(".menu5").hide();
+	console.log("enter");
+});
+
+$(".menu4").mouseleave(function() {
+	$(".menu5").show();
+	console.log("leave");
+});

@@ -2,7 +2,7 @@ body
 {
   margin:20px;
   padding:0;
-  background: white;
+  background: rgb(246,221,147);
   box-shadow:inset 0px 0px 0px rgba(80,10,0,0.5);
 }
 
@@ -123,6 +123,7 @@ audio {
     margin:-21px 0px 0px 72px;
     z-index:100;
 } 
+
 
 @-webkit-keyframes move {
 0%{}

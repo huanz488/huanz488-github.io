@@ -1593,6 +1593,14 @@ body{
     color:rgba(174,41,43,0.7);
 }
 
+.line4apollo1:hover{
+    border:5.54px solid ;
+    width:353px;   
+    margin:-296px 0px 0px -529px;
+    transform:rotate(0deg);
+    color:rgba(174,41,43,0.7);
+}
+
 #outerlapollo2 {   
     background-color: rgba(0,0,0,0);   
     border:10px solid rgba(174,41,43,0.5);   
@@ -1668,6 +1676,14 @@ body{
 .line4apollo2{
     border:5.54px solid ;
     width:49px;   
+    margin:-296px 0px 0px -1118px;
+    transform:rotate(0deg);
+    color:rgba(174,41,43,0.5);
+}
+
+.line4apollo2:hover{
+    border:5.54px solid ;
+    width:353px;   
     margin:-296px 0px 0px -1118px;
     transform:rotate(0deg);
     color:rgba(174,41,43,0.5);
@@ -1856,6 +1872,24 @@ body{
     
 } 
 
+.outerobig {   
+    background-color: rgba(0,0,0,0);   
+    border:10px solid rgb(235,55,3);   
+    border-right:10px solid rgb(235,55,3);  
+    border-left:10px solid rgb(235,55,3); 
+    border-bottom:10px solid rgb(235,55,3);
+    border-radius:500px;   
+    width:500px;   
+    height:500px;   
+    position: absolute;
+    transform:rotate(0deg);
+    opacity:0.2;
+    z-index:100;
+    margin:100px 0px 0px 100px;
+    
+} 
+
+
 .inner37 {   
     background-color: rgba(0,0,0,0);   
     border:8px solid rgba(0,0,0,0);   
@@ -1895,60 +1929,7 @@ body{
     transform:rotate(deg);
 }
 
-#outerobig {   
-    background-color: rgba(0,0,0,0);   
-    border:10px solid rgb(235,55,3);   
-    border-right:10px solid rgb(235,55,3);  
-    border-left:10px solid rgb(235,55,3); 
-    border-bottom:10px solid rgb(235,55,3);
-    border-radius:100px;   
-    width:100px;   
-    height:100px;   
-    position: absolute;
-    transform:rotate(0deg);
-    z-index:0;
-    margin:-407px 0px 0px 0px;
-    
-} 
 
-.inner37big {   
-    background-color: rgba(0,0,0,0);   
-    border:8px solid rgba(0,0,0,0);   
-    border-right:8px solid rgb(143,44,3);  
-    border-left:8px solid rgb(143,44,3);   
-    border-bottom:8px solid rgb(143,44,3);
-    border-radius:70px;   
-    width:70px;   
-    height:70px;   
-    position: absolute; 
-    z-index:20;
-    margin:-407px 0px 0px 0px;
-    left:17px;
-    top:17px;
-    transform:rotate(0deg);
-       -moz-animation:vuelta3 6s linear infinite; 
-       -ms-animation: vuelta3 6s linear infinite; 
-	   -webkit-animation: vuelta3 6s linear infinite;  
-	   -o-animation:vuelta3 6s linear infinite; 
-	   animation: vuelta3 6s linear infinite; 
-} 
-
-.inner38big {   
-    background-color: rgba(0,0,0,0);   
-    border:5px solid rgb(235,55,3);   
-    border-right:5px solid rgba(255,255,255,0);  
-    border-left:5px solid rgb(235,55,3);   
-    border-bottom:5px solid rgb(235,55,3);
-    border-radius:50px;   
-    width:45px;   
-    height:45px;   
-    position: absolute; 
-    z-index:20;
-    margin:-407px 0px 0px 0px;
-    left:33px;
-    top:33px;
-    transform:rotate(deg);
-}
 
 #outeroapollo {   
     background-color: rgba(0,0,0,0);   
@@ -2101,6 +2082,13 @@ body{
     margin:-187px 0px 0px -906px;
     color:rgba(174,41,43,0.7);
     transform:rotate(90deg);
+}
+
+.line8:hover{
+    border:5.5px solid ;
+    width:341px;   
+    margin:-41px 0px 0px -1052px;
+    color:rgba(174,41,43,0.7);
 }
 
 #outerq {   
