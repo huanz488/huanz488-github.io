@@ -2,7 +2,7 @@ body
 {
   margin:20px;
   padding:0;
-  background: url(image/backgroun2.jpg);
+  background: white;
   box-shadow:inset 0px 0px 0px rgba(80,10,0,0.5);
 }
 
@@ -11,78 +11,89 @@ audio {
 }
 
 .menu1 {   
-    width: 1675px; 
-    height: 136px; 
-    background: rgba(255,255,255,0); 
+    width: 10px; 
+    height: 10px; 
+      background: red; 
+      border-radius: 5px; 
     position: absolute;
-    margin:-8px 0px 0px 0px;
+    margin:110px 0px 0px 600px;
 } 
 
-.menu1:hover {   
-    width: 1675px; 
-    height: 136px; 
-    background: url(image/minuets.jpg); 
-    opacity:0.6; 
+.menu1:hover { 
+    width: 1600px; 
+    height: 700px; 
+    background: url(image/menu1.png); 
     position: absolute;
-    margin:-8px 0px 0px 0px;
+    opacity:1;
+    margin:124px 0px 0px 70px;
+    z-index:100;
     
 } 
 
 .menu2 {   
-    width: 1675px; 
-    height: 136px; 
-    background: rgba(255,255,255,0); 
+    width: 10px; 
+    height: 10px; 
+      background: red; 
+      border-radius: 5px; 
     position: absolute;
-    margin:123px 0px 0px 0px;
+    margin:243px 0px 0px 600px;
 } 
 
 .menu2:hover {   
-    width: 1675px; 
-    height: 136px; 
-    background: url(image/apollo.jpg); 
-    opacity:0.6;
+    width: 1600px; 
+    height: 835px; 
+    background: url(image/menu2.png); 
+    opacity:1;
     position: absolute;
-    margin:123px 0px 0px 0px;
+    margin:-21px 0px 0px 70px;
+    z-index:100;
+    border-radius: 200px;
 } 
 
 .menu3 {   
-    width: 1675px; 
-    height: 136px; 
-    background: rgba(255,255,255,0); 
+    width: 10px; 
+    height: 10px; 
+      background: red; 
+      border-radius: 5px; 
     position: absolute;
-    margin:255px 0px 0px 0px;
+    margin:375px 0px 0px 600px;
 } 
 
 .menu3:hover {   
-    width: 1675px; 
-    height: 136px; 
-    background: url(image/zaide.jpg);
-    opacity:0.6;
+    width: 1600px; 
+    height: 835px; 
+    background: url(image/menu3.png);
+    opacity:1;
     position: absolute;
-    margin:255px 0px 0px 0px;
+    border-radius: 200px;
+    margin:-21px 0px 0px 71px;
+    z-index:100;
 } 
 
 .menu4 {   
-    width: 1675px; 
-    height: 136px; 
-    background: rgba(255,255,255,0); 
+    width: 10px; 
+    height: 10px; 
+      background: red; 
+      border-radius: 5px; 
     position: absolute;
-    margin:388px 0px 0px 0px;
+    margin:505px 0px 0px 600px;
 } 
 
 .menu4:hover {   
-    width: 1675px; 
-    height: 136px; 
-    background: url(image/arias.jpg);
-    opacity:0.6; 
+    width: 1600px; 
+    height: 835px; 
+    background: url(image/menu4.png);
     position: absolute;
-    margin:388px 0px 0px 0px;
+    margin:-21px 0px 0px 71px;
+    z-index:100;
+    border-radius: 200px;
 } 
 
 .menu5 {   
     width: 1675px; 
     height: 136px; 
-    background: rgba(255,255,255,0); 
+    background: url(image/mozartbar.jpg); 
+    opacity:0.8; 
     position: absolute;
     margin:518px 0px 0px 0px;
 } 
@@ -90,27 +101,27 @@ audio {
 .menu5:hover {   
     width: 1675px; 
     height: 136px; 
-    background: url(image/mozart.jpg);
-    opacity:0.6; 
+    background: url(image/mozartbar.jpg);
     position: absolute;
     margin:518px 0px 0px 0px;
 } 
 
 .menu6 {   
-    width: 1675px; 
-    height: 136px; 
-    background: rgba(255,255,255,0); 
+    width: 10px; 
+    height: 10px; 
+      background: red; 
+      border-radius: 5px; 
     position: absolute;
-    margin:647px 0px 0px 0px;
+    margin:766px 0px 0px 600px;
 } 
 
 .menu6:hover {   
-    width: 1675px; 
-    height: 136px; 
-    background: url(image/duets.jpg);
-    opacity:0.6;
+    width: 1600px; 
+    height: 674px; 
+    background: url(image/menu6.png);
     position: absolute;
-    margin:647px 0px 0px 0px;
+    margin:-21px 0px 0px 72px;
+    z-index:100;
 } 
 
 @-webkit-keyframes move {

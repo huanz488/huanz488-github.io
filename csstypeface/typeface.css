@@ -109,12 +109,31 @@ body{
     margin:-272px 0px 0px -293px;
     left:17px;
     top:17px;
-       /*-moz-animation:vuelta3 6s linear infinite; */
-       /*-ms-animation: vuelta3 6s linear infinite; */
-	   /*-webkit-animation: vuelta3 6s linear infinite;  */
-	   /*-o-animation:vuelta3 6s linear infinite; */
-	   /*animation: vuelta3 6s linear infinite; */
+
 }   
+
+.inner1apollo:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,10,10);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-272px 0px 0px -293px;
+    left:17px;
+    top:17px;
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+
+}   
+
 
 .inner2apollo {   
     background-color: rgba(0,0,0,0);   
@@ -163,12 +182,31 @@ body{
     margin:-409px 0px 0px -1326px;
     left:17px;
     top:17px;
-       /*-moz-animation:vuelta3 6s linear infinite; */
-       /*-ms-animation: vuelta3 6s linear infinite; */
-	   /*-webkit-animation: vuelta3 6s linear infinite;  */
-	   /*-o-animation:vuelta3 6s linear infinite; */
-	   /*animation: vuelta3 6s linear infinite; */
+
 }   
+
+.inner1zaide:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,10,10);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-409px 0px 0px -1326px;
+    left:17px;
+    top:17px;
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+
+} 
+
 
 .inner2zaide {   
     background-color: rgba(0,0,0,0);   
@@ -217,12 +255,31 @@ body{
     margin:-678px 0px 0px -1175px;
     left:17px;
     top:17px;
-       /*-moz-animation:vuelta3 6s linear infinite; */
-       /*-ms-animation: vuelta3 6s linear infinite; */
-	   /*-webkit-animation: vuelta3 6s linear infinite;  */
-	   /*-o-animation:vuelta3 6s linear infinite; */
-	   /*animation: vuelta3 6s linear infinite; */
+
 }   
+
+.inner1arias:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,10,10);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-678px 0px 0px -1175px;
+    left:17px;
+    top:17px;
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+
+}  
+
 
 .inner2arias {   
     background-color: rgba(0,0,0,0);   
@@ -422,6 +479,29 @@ body{
 
 } 
 
+.inner9:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-543px 0px 0px -292px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+
+} 
+
 
 .inner10 {   
     background-color: rgba(0,0,0,0);   
@@ -488,6 +568,29 @@ body{
     transform:rotate(135deg);
 } 
 
+.inner9duets:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-689px 0px 0px -440px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 
 .inner10duets {   
     background-color: rgba(0,0,0,0);   
@@ -552,6 +655,29 @@ body{
     left:17px;
     top:17px;
     transform:rotate(-45deg);
+
+} 
+
+.inner11:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(255,255,255,0);   
+    border-right:8px solid rgba(255,255,255,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -134px 0px 0px -140px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
 
 } 
 
@@ -622,6 +748,28 @@ body{
 
 } 
 
+.inner11zaide:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(255,255,255,0);   
+    border-right:8px solid rgba(255,255,255,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -543px 0px 0px -875px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
 .inner12zaide {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(255,255,255,0);   
@@ -688,6 +836,30 @@ body{
     transform:rotate(-45deg);
 
 } 
+
+.inner11duets:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(255,255,255,0);   
+    border-right:8px solid rgba(255,255,255,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -555px 0px 0px -883px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+
+} 
+
 
 .inner12duets {   
     background-color: rgba(0,0,0,0);   
@@ -967,6 +1139,28 @@ body{
     transform:rotate(100deg);
 } 
 
+.inner23:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:0px 0px 0px -590px;
+    left:17px;
+    top:17px;
+    transform:rotate(100deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
 .inner24 {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(255,255,255,0);   
@@ -1024,6 +1218,29 @@ body{
     transform:rotate(100deg);
 } 
 
+.inner23arias:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-545px 0px 0px -1617px;
+    left:17px;
+    top:17px;
+    transform:rotate(100deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner24arias {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(255,255,255,0);   
@@ -1080,6 +1297,28 @@ body{
     top:17px;
     transform:rotate(100deg);
 } 
+
+.inner23zaide:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-543px 0px 0px 292px;
+    left:17px;
+    top:17px;
+    transform:rotate(100deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+}
 
 .inner24zaide {   
     background-color: rgba(0,0,0,0);   
@@ -1306,6 +1545,29 @@ body{
     transform:rotate(-45deg);
 } 
 
+.inner31apollo1:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-407px 0px 0px -589px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+    
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
 .inner32apollo1 {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgb(174,41,43);   
@@ -1363,6 +1625,29 @@ body{
     transform:rotate(-45deg);
 } 
 
+.inner31apollo2:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-407px 0px 0px -1178px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner32apollo2 {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgb(174,41,43);   
@@ -1401,6 +1686,7 @@ body{
     transform:rotate(0deg);
     z-index:0;
     margin:0px auto;
+    
 } 
 
 .inner33 {   
@@ -1418,6 +1704,28 @@ body{
     left:17px;
     top:17px;
     transform:rotate(deg);
+} 
+
+.inner33:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(143,44,3);  
+    border-left:8px solid rgb(143,44,3);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:0px auto;
+    left:17px;
+    top:17px;
+    transform:rotate(deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
 } 
 
 .inner34 {   
@@ -1483,6 +1791,28 @@ body{
     left:17px;
     top:17px;
     transform:rotate(deg);
+} 
+
+.inner35:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:0px 0px 0px -1178px;
+    left:17px;
+    top:17px;
+    transform:rotate(deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
 } 
 
 .inner36 {   
@@ -1653,6 +1983,29 @@ body{
     transform:rotate(45deg);
 } 
 
+.inner37apollo:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgb(104,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-540px 0px 0px 444px;
+    left:17px;
+    top:17px;
+    transform:rotate(45deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner38apollo {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgb(174,41,43);   
@@ -1701,6 +2054,29 @@ body{
     top:17px;
     transform:rotate(135deg);
 } 
+
+.inner39:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgb(104,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-271px 0px 0px -882px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
 
 .inner40 {   
     background-color: rgba(0,0,0,0);   
@@ -1886,6 +2262,30 @@ body{
     transform:rotate(135deg);
 } 
 
+.inner43mozart:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(143,44,3);   
+    border-bottom:8px solid rgb(143,44,3);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-547px 0px 0px -1470px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
+
 .inner44mozart {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgb(235,55,3);   
@@ -1949,6 +2349,28 @@ body{
     left:17px;
     top:17px;
     transform:rotate(135deg);
+} 
+
+.inner43arias:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgb(104,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-679px 0px 0px -293px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
 } 
 
 .inner44arias {   
@@ -2018,6 +2440,29 @@ body{
     transform:rotate(-65deg);
 } 
 
+.inner45:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-269px 0px 0px 883px;
+    left:17px;
+    top:17px;
+    transform:rotate(-65deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner46 {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(10,10,10,0);   
@@ -2074,6 +2519,29 @@ body{
     top:17px;
     transform:rotate(-65deg);
 } 
+
+.inner45arias:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-544px 0px 0px -590px;
+    left:17px;
+    top:17px;
+    transform:rotate(-65deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
 
 .inner46arias {   
     background-color: rgba(0,0,0,0);   
@@ -2132,6 +2600,29 @@ body{
     transform:rotate(-65deg);
 } 
 
+.inner45duets:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgb(104,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin:-689px 0px 0px -592px;
+    left:17px;
+    top:17px;
+    transform:rotate(-65deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner46duets {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(10,10,10,0);   
@@ -2188,6 +2679,32 @@ body{
     top:17px;
     transform:rotate(-45deg);
 } 
+
+.inner47:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgba(0,0,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -135px 0px 0px -721px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
+
+
 
 .inner48 {   
     background-color: rgba(0,0,0,0);   
@@ -2246,6 +2763,29 @@ body{
     transform:rotate(-45deg);
 } 
 
+.inner47mozart:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(143,44,3);   
+    border-right:8px solid rgb(143,44,3);  
+    border-left:8px solid rgba(0,0,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -555px 0px 0px 0px;
+    left:17px;
+    top:17px;
+    transform:rotate(-45deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner48mozart {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgba(10,10,10,0);   
@@ -2303,6 +2843,29 @@ body{
     transform:rotate(135deg);
 } 
 
+.inner49:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgba(0,0,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -133px 0px 0px 444px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+       -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
+
 .inner50 {   
     background-color: rgba(0,0,0,0);   
     border:5px solid rgb(144,36,42);   
@@ -2350,6 +2913,28 @@ body{
     left:17px;
     top:17px;
     transform:rotate(135deg);
+} 
+
+.inner49duets:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgb(104,0,0);   
+    border-right:8px solid rgb(104,0,0);  
+    border-left:8px solid rgba(0,0,0,0);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -555px 0px 0px -1763px;
+    left:17px;
+    top:17px;
+    transform:rotate(135deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
 } 
 
 .inner50duets {   
@@ -2595,6 +3180,29 @@ body{
     top:17px;
     transform:rotate(270deg);
 } 
+
+.inner55:hover {   
+    background-color: rgba(0,0,0,0);   
+    border:8px solid rgba(0,0,0,0);   
+    border-right:8px solid rgba(0,0,0,0);  
+    border-left:8px solid rgb(143,44,3);   
+    border-bottom:8px solid rgba(0,0,0,0);
+    border-radius:70px;   
+    width:70px;   
+    height:70px;   
+    position: absolute; 
+    z-index:20;
+    margin: -409px 0px 0px -740px;
+    left:17px;
+    top:17px;
+    transform:rotate(270deg);
+           -moz-animation:vuelta3 6s linear infinite; 
+       -ms-animation: vuelta3 6s linear infinite; 
+	   -webkit-animation: vuelta3 6s linear infinite;  
+	   -o-animation:vuelta3 6s linear infinite; 
+	   animation: vuelta3 6s linear infinite; 
+} 
+
 
 .inner56 {   
     background-color: rgba(0,0,0,0);   

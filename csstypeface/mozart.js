@@ -88,15 +88,32 @@ $('.menu6').mouseleave(function() {
 document.getElementById("duets").pause(); 
 });
 
+$(".menu1").mouseenter(function() {
+	$(".menu5").hide();
+	console.log("enter");
+});
+
+$(".menu1").mouseleave(function() {
+	$(".menu5").show();
+	console.log("leave");
+});
+
 $(".menu2").mouseenter(function() {
-	$(".letter-o").hide();
+	$(".menu5").hide();
 	console.log("enter");
 });
 
 $(".menu2").mouseleave(function() {
-	$(".letter-o").show();
+	$(".menu5").show();
 	console.log("leave");
 });
 
+$(".menu3").mouseenter(function() {
+	$(".menu5").hide();
+	console.log("enter");
+});
 
-
+$(".menu3").mouseleave(function() {
+	$(".menu5").show();
+	console.log("leave");
+});
