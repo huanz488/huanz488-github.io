@@ -1,0 +1,97 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.kuma{
+background: url(images/kuma.png);
+width: 500px;
+height: 389px;
+position: absolute;
+margin:262px 0px 0px 538px;
+
+
+}
+
+.kumamouse{
+background: url(images/kumamouse.png);
+width: 150px;
+height: 116px;
+position: absolute;  
+text-align: center;
+margin:519px 0px 0px 710px;
+
+}
+
+.click{
+background: url(images/click.png);
+width: 150px;
+height: 18px;
+position: absolute;  
+text-align: center;
+margin:673px 0px 0px 710px;
+
+}
+
+.ilike{
+background: url(images/ilike.png);  
+width: 400px;
+height: 259px;
+position: absolute;  
+text-align: center;
+margin:10px 0px 0px 850px;
+-webkit-transition:width 1s, height 1s, -webkit-transform 2s;
+-webkit-animation: myfirst 8s linear 2s infinite alternate;
+
+}
+
+.test3 {
+background-color: #B22222;
+font-size: 150%;
+width: 500px;
+height: 500px;
+border-radius: 50%;
+text-align: center;
+margin: auto;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+transition:width 2s, height 2s;
+-webkit-transition:width 1s, height 1s, -webkit-transform 2s;
+-webkit-animation: myfirst 8s linear 2s infinite alternate;
+
+}
+
+.test3:hover
+{
+background: url(images/soundsbig.gif);
+width:550px;
+height:550px;
+opacity:0.8;
+-webkit-transform:rotate(360deg);
+
+
+}
+
+@-webkit-keyframes myfirst {
+    0%   {right:350px; bottom:600px;}
+    25%  {right:350px; bottom:650px;}
+    50%  {right:350px; bottom:600px;}
+    75%  {right:350px; bottom:550px;}
+    100% {right:350px; bottom:550px;}
+
+}
+
+audio {
+  display: none;
+}
+
+
+.backgroundtest {
+width:1660px;
+height:900px;
+
+}

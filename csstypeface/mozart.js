@@ -282,3 +282,16 @@ $('.inner45duets').mouseleave(function() {
 document.getElementById("piano4").pause(); 
 });
 
+$('.outerm').hover(function() {
+    //on
+   $(this).addClass('hide');
+}, function() {
+    // off
+});
+
+$('.outerm').hover(function() {
+    //on
+   $(this).addClass('hide');
+}, function() {
+    // off
+});
