@@ -46,6 +46,19 @@ margin:10px 0px 0px 850px;
 
 }
 
+.quote-holder {
+  margin: 699px 0px 0px 613px;
+  width: 500px;
+  height: 116px;
+  font-size: 35px;
+  font-family: lucida;
+  font-weight: bold;
+  position: absolute;
+  z-index:1;
+  color: black;
+   -webkit-text-stroke-color: #fff;
+}
+
 .test3 {
 background-color: #B22222;
 font-size: 150%;
