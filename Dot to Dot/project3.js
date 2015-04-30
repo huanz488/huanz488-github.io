@@ -2,24 +2,43 @@ var Path = {
     current : 0
 };
 
+var nextVals = [1];
+
 $('.dot').addClass('hovered');
 $(".dot[data-position|='1'").removeClass("hovered");
 $('.dot').hover(function() {
    // mouse on
    var $dot = $(this);
    
-   if (!$dot.hasClass('hovered')) {
-       $dot.addClass('hovered');
-       $dot.css({ 'background': 'transparent' });
-       
-       check_path($dot);
+   console.log($dot.data('position'));
+   console.log(nextVals.indexOf($dot.data('position')));
+   if ($dot.hasClass("hovered") == false) {
+       if (nextVals.indexOf($dot.data('position')) > -1) {
+           $dot.addClass('gone'); //if i hover over this thing, mark it gone
+           
+           $('.dot').addClass('hovered'); //disable everything!
+           $dot.css({ 'background': 'transparent' });
+
+           nextVals = $dot.data('next').split(","); //reenable only these dots
+           
+           for(var i=0; i<nextVals.length; i++) { 
+               nextVals[i] = parseInt(nextVals[i]); 
+               $(".dot[data-position|='"+ nextVals[i] +"'").removeClass("hovered");
+               $('.dot.gone').addClass("hovered");//if already hovered, deactivate again
+           }
+           console.log(nextVals);
+       }
+       //check_path($dot);
       // alert($dot.data("position"));
    }
    
-}, function() {
-   // mouse out 
 });
 
+$('.redo')({".redo" : "",
+".redo:hover" : ""})
+
+$('.dot').addClass('hovered');
+$(".dot[data-position|='13'").removeClass("hovered");
 
 function check_path($dot) {
     var hovered_path = parseInt( $dot.data('position') ) + 1;
