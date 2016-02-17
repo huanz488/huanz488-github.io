@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Round 1</title>
+        <link rel="Shortcut Icon" href="images/jia.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href="project3-1.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    
+    <body>
+        
+        <div class="skeleton"></div>
+        <div class="redo"></div>
+        <a href="project3hellopage.html"><div class="menu"></div></a>
+        <div class="arrowdown"></div>
+        <div class="ready"></div>
+        <div class="arrowup"></div>
+        <div class="process"></div>
+        
+        <audio play controls id="1">
+        <source src="music/1.mp3" type="audio/mp3">
+        </audio>
+        <audio play controls id="win">
+        <source src="music/win.mp3" type="audio/mp3">
+        </audio>
+        <audio play controls id="lose">
+        <source src="music/lose.mp3" type="audio/mp3">
+        </audio>
+        <audio autoplay controls id="ready">
+        <source src="music/ready.mp3" type="audio/mp3">
+        </audio>
+        
+        <article id="wrap">
+    	<section id="lightings">
+    	<div class="lights" id="one">
+            <div class="lights" id="two">
+                <div class="lights" id="three">
+                    <div class="lights" id="four">
+                        <div class="lights" id="five">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </section>
+</article>
+
+        <div data-position="1" data-next="2,6" class="dot grid1"></div>
+        <div data-position="6" data-next="1,7,11" class="dot grid2"></div>
+        <div data-position="11" data-next="6,12,16" class="dot grid2"></div>
+
+
+        <div data-position="2" data-next="1,3,7" class="dot grid3"></div>
+        <div data-position="7" data-next="2,6,8,12" class="dot grid4"></div>
+        <div data-position="12" data-next="7,11,13,17"class="dot grid4"></div>
+
+
+        <div data-position="3" data-next="2,4,8"class="dot grid5"></div>
+        <div data-position="8" data-next="3,7,9,13"class="dot grid6"></div>
+        <div data-position="13" data-next="8,12,14,18"class="dot grid6"></div>
+        
+        <script src="project3-1.js"></script>
+        <div id="exitArrow"></div>
+    </body>
+
+</html>

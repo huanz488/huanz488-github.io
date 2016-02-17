@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Round 4</title>
+        <link rel="Shortcut Icon" href="images/jia.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link href="project3-4.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    
+    <body>
+        
+        <div class="skeleton"></div>
+        <div class="redo"></div>
+        <a href="project3hellopage.html"><div class="menu"></div></a>
+        <div class="arrowdown"></div>
+        <div class="ready"></div>
+        <div class="arrowup"></div>
+        <div class="process"></div>
+        
+        <audio play controls id="dotSound">
+        <source src="music/1.mp3" type="audio/mp3">
+        </audio>
+        <audio play controls id="win">
+        <source src="music/win.mp3" type="audio/mp3">
+        </audio>
+        <audio play controls id="lose">
+        <source src="music/lose.mp3" type="audio/mp3">
+        </audio>
+        <audio autoplay controls id="ready">
+        <source src="music/ready.mp3" type="audio/mp3">
+        </audio>
+        
+        <article id="wrap">
+    	<section id="lightings">
+    	<div class="lights" id="one">
+            <div class="lights" id="two">
+                <div class="lights" id="three">
+                    <div class="lights" id="four">
+                        <div class="lights" id="five">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+    </section>
+</article>
+
+        <div data-position="1" data-next="2,10" class="dot grid1"></div>
+        <div data-position="10" data-next="1,11,19" class="dot grid2"></div>
+        <div data-position="19" data-next="10,20,28" class="dot grid2"></div>
+        <div data-position="28" data-next="19,29,37" class="dot grid2"></div>
+        <div data-position="37" data-next="28,38,46" class="dot grid2"></div>
+        <div data-position="46" data-next="37,47,55" class="dot grid2"></div>
+        <div data-position="55" data-next="46,56,64" class="dot grid2"></div>
+        <div data-position="64" data-next="55,65,73" class="dot grid2"></div>
+        <div data-position="73" data-next="64,74" class="dot grid2"></div>
+
+        <div data-position="2" data-next="1,3,11" class="dot grid3"></div>
+        <div data-position="11" data-next="2,10,12,20" class="dot grid4"></div>
+        <div data-position="20" data-next="11,19,21,29"class="dot grid4"></div>
+        <div data-position="29" data-next="20,28,30,38"class="dot grid4"></div>
+        <div data-position="38" data-next="29,37,39,47"class="dot grid4"></div>
+        <div data-position="47" data-next="38,46,48,56"class="dot grid4"></div>
+        <div data-position="56" data-next="47,55,57,65"class="dot grid4"></div>
+        <div data-position="65" data-next="56,64,66,74"class="dot grid4"></div>
+        <div data-position="74" data-next="65,73,75"class="dot grid4"></div>
+
+        <div data-position="3" data-next="2,4,12"class="dot grid5"></div>
+        <div data-position="12" data-next="3,11,13,21"class="dot grid6"></div>
+        <div data-position="21" data-next="12,20,22,30"class="dot grid6"></div>
+        <div data-position="30" data-next="21,29,31,39"class="dot grid6"></div>
+        <div data-position="39" data-next="30,38,40,48"class="dot grid6"></div>
+        <div data-position="48" data-next="39,47,49,57"class="dot grid6"></div>
+        <div data-position="57" data-next="48,56,58,66"class="dot grid6"></div>
+        <div data-position="66" data-next="57,65,67,75"class="dot grid6"></div>
+        <div data-position="75" data-next="66,74,76"class="dot grid6"></div>
+
+        <div data-position="4" data-next="3,5,13"class="dot grid7"></div>
+        <div data-position="13" data-next="4,12,14,22"class="dot grid8"></div>
+        <div data-position="22" data-next="13,21,23,31"class="dot grid8"></div>
+        <div data-position="31" data-next="22,30,32,40"class="dot grid8"></div>
+        <div data-position="40" data-next="31,39,41,49"class="dot grid8"></div>
+        <div data-position="49" data-next="40,48,50,58"class="dot grid8"></div>
+        <div data-position="58" data-next="49,57,59,67"class="dot grid8"></div>
+        <div data-position="67" data-next="58,66,68,76"class="dot grid8"></div>
+        <div data-position="76" data-next="67,75,77"class="dot grid8"></div>
+
+        <div data-position="5" data-next="4,6,14" class="dot grid9"></div>
+        <div data-position="14" data-next="5,13,15,23"class="dot grid10"></div>
+        <div data-position="23" data-next="14,22,24,32"class="dot grid10"></div>
+        <div data-position="32" data-next="23,31,33,41"class="dot grid10"></div>
+        <div data-position="41" data-next="32,40,42,50"class="dot grid10"></div>
+        <div data-position="50" data-next="41,49,51,59"class="dot grid10"></div>
+        <div data-position="59" data-next="50,58,60,68"class="dot grid10"></div>
+        <div data-position="68" data-next="59,67,69,77"class="dot grid10"></div>
+        <div data-position="77" data-next="68,76,78"class="dot grid10"></div>
+        
+        <div data-position="6" data-next="5,7,15" class="dot grid11"></div>
+        <div data-position="15" data-next="6,14,16,24"class="dot grid12"></div>
+        <div data-position="24" data-next="15,23,25,33"class="dot grid12"></div>
+        <div data-position="33" data-next="24,32,34,42"class="dot grid12"></div>
+        <div data-position="42" data-next="33,41,43,51"class="dot grid12"></div>
+        <div data-position="51" data-next="42,50,52,60"class="dot grid12"></div>
+        <div data-position="60" data-next="51,59,61,69"class="dot grid12"></div>
+        <div data-position="69" data-next="60,68,70,78"class="dot grid12"></div>
+        <div data-position="78" data-next="69,77,79"class="dot grid12"></div>
+        
+        <div data-position="7" data-next="6,8,16" class="dot grid13"></div>
+        <div data-position="16" data-next="7,15,17,25"class="dot grid14"></div>
+        <div data-position="25" data-next="16,24,26,34"class="dot grid14"></div>
+        <div data-position="34" data-next="25,33,35,43"class="dot grid14"></div>
+        <div data-position="43" data-next="34,42,44,52"class="dot grid14"></div>
+        <div data-position="52" data-next="43,51,53,61"class="dot grid14"></div>
+        <div data-position="61" data-next="52,60,62,70"class="dot grid14"></div>
+        <div data-position="70" data-next="61,69,71,79"class="dot grid14"></div>
+        <div data-position="79" data-next="70,78,80"class="dot grid14"></div>
+        
+        <div data-position="8" data-next="7,9,17" class="dot grid15"></div>
+        <div data-position="17" data-next="8,16,18,26"class="dot grid16"></div>
+        <div data-position="26" data-next="17,25,27,35"class="dot grid16"></div>
+        <div data-position="35" data-next="26,34,36,44"class="dot grid16"></div>
+        <div data-position="44" data-next="35,43,45,53"class="dot grid16"></div>
+        <div data-position="53" data-next="44,52,54,62"class="dot grid16"></div>
+        <div data-position="62" data-next="53,61,63,71"class="dot grid16"></div>
+        <div data-position="71" data-next="62,70,72,80"class="dot grid16"></div>
+        <div data-position="80" data-next="71,79,81"class="dot grid16"></div>
+        
+        <div data-position="9" data-next="8,18" class="dot grid17"></div>
+        <div data-position="18" data-next="9,17,27"class="dot grid18"></div>
+        <div data-position="27" data-next="18,26,36"class="dot grid18"></div>
+        <div data-position="36" data-next="27,35,45"class="dot grid18"></div>
+        <div data-position="45" data-next="36,44,54"class="dot grid18"></div>
+        <div data-position="54" data-next="45,53,63"class="dot grid18"></div>
+        <div data-position="63" data-next="54,62,72"class="dot grid18"></div>
+        <div data-position="72" data-next="63,71,81"class="dot grid18"></div>
+        <div data-position="81" data-next="72,80"class="dot grid18"></div>
+        
+        <script src="project3-4.js"></script>
+        <div id="exitArrow"></div>
+    </body>
+
+</html>
